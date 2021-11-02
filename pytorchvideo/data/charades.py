@@ -218,4 +218,3 @@ def _read_video_paths_and_labels(
     # Aggregate labels from all frames to form video-level labels.
     video_labels = [list(set(itertools.chain(*label_list))) for label_list in labels]
     return image_paths, labels, video_labels
-132321
